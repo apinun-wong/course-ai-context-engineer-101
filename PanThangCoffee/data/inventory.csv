@@ -1,0 +1,14 @@
+category,name,stock_qty,unit,expiry_date
+Coffee,Ethiopia Yirgacheffe,500,g,2026-08-15
+Coffee,House Blend (Dark),150,g,2026-07-01
+Coffee,Signature Nutty-Choco Blend,300,g,2026-09-05
+Coffee,Guatemala Antigua,80,g,2026-06-23
+Milk,Cow Milk,25,liters,2026-06-25
+Milk,Oat Milk,2,boxes,2026-06-22
+Milk,Soy Milk,15,boxes,2026-07-18
+Milk,Almond Milk,10,boxes,2026-07-10
+Syrup,Caramel Syrup,6,bottles,2026-12-01
+Syrup,Vanilla Syrup,1,bottle,2026-06-21
+Bakery,Croissant,12,pcs,2026-06-21
+Bakery,Lemon Tart,5,pcs,2026-06-22
+Packaging,Cold Cup 16oz,200,pcs,2027-01-01

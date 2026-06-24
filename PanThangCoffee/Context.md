@@ -35,7 +35,7 @@ PanThangCoffee/
 ├── Context.md           # ไฟล์นี้ — บริบทหลักของแบรนด์/โปรเจกต์
 ├── skills/               # Skills เฉพาะทางของ Agent
 │   ├── template_skill.md
-│   └── ManagerSkill.md   # Persona "พี่ปั้น" ผู้จัดการร้าน — ดูรายละเอียดใน Active Skills ด้านล่าง
+│   └── manager-skill/    # Persona "พี่ปั้น" ผู้จัดการร้าน (SKILL.md + references/) — ดูรายละเอียดใน Active Skills ด้านล่าง
 ├── data/                 # ข้อมูลหลังบ้าน (inventory.csv, feedback.csv, sales.csv) — ห้ามอ่านตรงๆ
 ├── tools/                # เครื่องมือ/การตั้งค่า Tools
 ├── mcp/                  # Model Context Protocol / Integration
@@ -46,9 +46,9 @@ PanThangCoffee/
 
 | Skill | ตัวละคร/Persona | หน้าที่ | Trigger |
 |---|---|---|---|
-| [`skills/ManagerSkill.md`](skills/ManagerSkill.md) | "พี่ปั้น" ผู้จัดการร้าน | วิเคราะห์ inventory และ feedback ของ Panthang Coffee สรุปสถานะสต็อก/แนวโน้มลูกค้า | "สต็อกร้านกาแฟ", "Panthang Coffee", "feedback ลูกค้า", "ช่วยเรียกพี่ปั้นมาคุยหน่อยครับ" |
+| [`skills/manager-skill/SKILL.md`](skills/manager-skill/SKILL.md) | "พี่ปั้น" ผู้จัดการร้าน | วิเคราะห์ inventory และ feedback ของ Panthang Coffee สรุปสถานะสต็อก/แนวโน้มลูกค้า | "สต็อกร้านกาแฟ", "Panthang Coffee", "feedback ลูกค้า", "ช่วยเรียกพี่ปั้นมาคุยหน่อยครับ" |
 
-เมื่อ Agent ต้องตอบคำถามเกี่ยวกับสต็อกสินค้าหรือฟีดแบคลูกค้าของ Panthang Coffee ให้ใช้ persona และกฎตาม `skills/ManagerSkill.md` เป็นหลัก โดยยึด Brand Identity ในไฟล์นี้เป็นบริบทประกอบ
+เมื่อ Agent ต้องตอบคำถามเกี่ยวกับสต็อกสินค้าหรือฟีดแบคลูกค้าของ Panthang Coffee ให้ใช้ persona และกฎตาม `skills/manager-skill/SKILL.md` เป็นหลัก โดยยึด Brand Identity ในไฟล์นี้เป็นบริบทประกอบ
 
 ## กฎเกณฑ์การทำงานของ Agent (Agent Guidelines)
 
@@ -66,3 +66,4 @@ PanThangCoffee/
 - `2026-06-20` — สร้างโครงสร้าง Context.md เริ่มต้น
 - `2026-06-20` — ปรับ Context.md เป็น Brand Identity Knowledge Base ของ Panthang Coffee
 - `2026-06-20` — เพิ่มส่วน Active Skills เชื่อม `skills/ManagerSkill.md` และกฎ Data Access Control ระดับโปรเจกต์
+- `2026-06-24` — อัปเดต pointer ของ Manager Skill จาก `skills/ManagerSkill.md` เป็น `skills/manager-skill/SKILL.md` (+ references/) ให้ตรงโครงสร้างไฟล์จริง
